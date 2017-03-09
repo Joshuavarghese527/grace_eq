@@ -5,5 +5,11 @@ Rails.application.routes.draw do
   get  'what_we_do'    => 'grace_eq#what_we_do'
   get  'resources' => 'grace_eq#resources'
   get  'contact'    => 'grace_eq#contact'
-end
 
+  get  'connect'    => 'grace_eq#connect'
+  get  'whats_sunday_like'    => 'grace_eq#whats_sunday_like'
+  get  'leadership'    => 'grace_eq#leadership'
+  get  'grace_values'    => 'grace_eq#grace_values'
+  get  'join_the_team'    => 'grace_eq#join_the_team' 
+   
+end

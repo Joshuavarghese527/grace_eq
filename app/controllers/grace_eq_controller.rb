@@ -19,4 +19,19 @@ class GraceEqController < ApplicationController
   def contact
   end
 
+  def connect
+  end
+
+  def whats_sunday_like
+  end
+
+  def leadership
+  end
+
+  def grace_values
+  end
+
+  def join_the_team
+  end
+
 end
