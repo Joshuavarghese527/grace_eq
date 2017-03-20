@@ -34,4 +34,8 @@ class GraceEqController < ApplicationController
   def join_the_team
   end
 
+  def sermon_series
+  end 
+
+
 end
