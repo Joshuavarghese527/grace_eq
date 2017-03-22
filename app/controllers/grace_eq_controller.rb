@@ -37,5 +37,22 @@ class GraceEqController < ApplicationController
   def sermon_series
   end 
 
+  def why_we_exist
+  end
+
+  def contribute
+  end
+
+  def serve
+  end
+
+  def books
+  end
+
+  def app
+  end
+
+  def pray
+  end
 
 end

@@ -1,7 +1,5 @@
 <main>
-
-       
-      <section id="pattern-background-1" class="light-bg img-bg-softer" style="background-image: url(assets/grace_eq/art/pattern-background01.jpg);">
+      
       <div class="container inner">
         <div class="row">
           
@@ -9,13 +7,11 @@
             
             <!-- ============================================================= SIDE NAVIGATION ============================================================= -->
               
+                  
             <ul class="sidenav">
-              <li><%= link_to "Why we exist?",  why_we_exist_path %></li>
-              <li><%= link_to "Grace Values",  grace_values_path %></li>
-              <li><%= link_to "What's Sunday Like?", whats_sunday_like_path %></li>
-              <li><%= link_to "Connect", connect_path %></li>
-              <li><%= link_to "Leadership", leadership_path %></li>
-      
+              <li><%= link_to "Contribute",  contribute_path %></li>
+              <li><%= link_to "Pray",  pray_path %></li>
+              <li><%= link_to "Serve", serve_path %></li>
             </ul><!-- /.sidenav -->
             
             <!-- ============================================================= SIDE NAVIGATION : END ============================================================= -->
@@ -28,7 +24,8 @@
           
             <section id="hero" class="inner-bottom-xs">
               <header>
-                <h1>Check the Video Below</h1>
+                <h1>Pray</h1>
+                <p>Grace needs prayer for each and everyday.</p>
               </header>
             </section>
             
@@ -38,28 +35,25 @@
             <!-- ============================================================= SECTION – CONTENT ============================================================= -->
             
             <section id="content" class="border-top-lg">
-                  <div class="row">
-            <div class="col-sm-12 center-block inner-top-sm">
-              <div class="video-container">
-               <iframe src="https://player.vimeo.com/video/207233999?autoplay=1&color=FF530D&title=0&byline=0&portrait=0" width="1170" height="658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-            </section>
-            
-            <!-- ============================================================= SECTION – CONTENT : END ============================================================= -->
-            
-          </div><!-- ./col -->
-            
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-      
-      <!-- ============================================================= SECTION – SHARE ============================================================= -->
-    </section>
+              <div class="row">
+          
+            <div class="col-md-12 col-sm-6 inner-top ">
+                  <h3 class="sidelines text-center"><span>Numbered list</span></h3>
+                  
+                  <ol class="text-center">
+                    <li>Vivae modipsae voloratati</li>
+                    <li>Andigen daepeditem labore</li>
+                    <li>Laceaque ectemperum quiae</li>
+                    <li>Restibses vaio es tumquam</li>
+                    <li>Operum tibusam eumenis</li>
+                  </ol><!-- /.circled -->
+                </div><!-- /.col -->
+
+                </div>
+                </section>
       
     </main>
             
             <!-- ============================================================= SIDE NAVIGATION ============================================================= -->
-            
-  
       <%= render 'shared/footer' %>
+    
